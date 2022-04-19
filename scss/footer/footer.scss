@@ -18,16 +18,27 @@ footer{
         }
         .footer-subscribe{
             display: flex;
+            justify-content: center;
+            margin-top: 46px;
             .footer-subscribe-input{
                 input{
-
+                    width: 529px;
+                    height: 60px;
+                    background-color: #F56B88;
+                    border: none;
+                    color: rgba($color: #FFFFFF, $alpha: .5);
+                    padding-left: 20px;
+                    ::placeholder{
+                        font-family: GillSansR;
+                        font-size: 16px;
+                    }
                 }
             }
             .footer-subscribe-submit{
-                .subscribe a{
-                    width: 167px;
-                    height: 60px;
-                    background-color: white;
+                width: 167px;
+                height: 60px;
+                background-color: white;
+                .subscribe{
                 }
             }
         }

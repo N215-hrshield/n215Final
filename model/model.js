@@ -160,6 +160,77 @@ var galleryContent = `        <div class="gallery">
     </div>
 </div>
 </div>`
+var blogContent = `        <div class="blog">
+<div class="blog-title">
+    BLOG:
+</div>
+<div class="blog-title-bar"></div>
+<div class="blog-box-wrapper">
+    <div class="blog-box">
+        <div class="blog-date">
+            <div class="blog-date-day">
+                06
+            </div>
+            <div class="blog-date-month">
+                JUN
+            </div>
+        </div>
+        <div class="blog-image-box">
+            <div class="blog-image">
+
+            </div>
+            <div class="blog-title">
+                Sed et persipiatis unde omnis iste natus
+            </div>
+            <div class="blog-desc">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+            </div>
+        </div>
+    </div>      
+    <div class="blog-box">
+        <div class="blog-date">
+            <div class="blog-date-day">
+                30
+            </div>
+            <div class="blog-date-month">
+                JUL
+            </div>
+        </div>
+        <div class="blog-image-box">
+            <div class="blog-image">
+
+            </div>
+            <div class="blog-title">
+                Sed et persipiatis unde omnis iste natus
+            </div>
+            <div class="blog-desc">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+            </div>
+        </div>
+    </div>  
+    <div class="blog-box">
+        <div class="blog-date">
+            <div class="blog-date-day">
+                06
+            </div>
+            <div class="blog-date-month">
+                JUN
+            </div>
+        </div>
+        <div class="blog-image-box">
+            <div class="blog-image">
+
+            </div>
+            <div class="blog-title">
+                Sed et persipiatis unde omnis iste natus
+            </div>
+            <div class="blog-desc">
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+            </div>
+        </div>
+    </div>   
+</div>    
+</div>`
 var contactsContent = `        <div class="contact">
 <h1>Contact us!</h1>
 <div class="contact-box">

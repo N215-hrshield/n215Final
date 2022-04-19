@@ -120,13 +120,26 @@ footer .footer-box .footer-contact {
 }
 footer .footer-box .footer-subscribe {
   display: flex;
+  justify-content: center;
+  margin-top: 46px;
 }
-footer .footer-box .footer-subscribe .footer-subscribe-submit .subscribe a {
+footer .footer-box .footer-subscribe .footer-subscribe-input input {
+  width: 529px;
+  height: 60px;
+  background-color: #F56B88;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 20px;
+}
+footer .footer-box .footer-subscribe .footer-subscribe-input input ::placeholder {
+  font-family: GillSansR;
+  font-size: 16px;
+}
+footer .footer-box .footer-subscribe .footer-subscribe-submit {
   width: 167px;
   height: 60px;
   background-color: white;
 }
-
 .home .homeheader {
   height: 500px;
   background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
@@ -356,6 +369,96 @@ footer .footer-box .footer-subscribe .footer-subscribe-submit .subscribe a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.blog {
+  min-height: 1000px;
+  width: 980px;
+  margin: 0 auto;
+}
+.blog .blog-title {
+  margin-top: 63.5px;
+  font-family: GillSansR;
+  font-size: 25px;
+}
+.blog .blog-title-bar {
+  width: 229px;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+}
+.blog .blog-box-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.blog .blog-box-wrapper .blog-box {
+  margin-top: 30.5px;
+  width: 460px;
+  height: 257px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog .blog-box-wrapper .blog-box .blog-date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.blog .blog-box-wrapper .blog-box .blog-date .blog-date-day {
+  font-size: 22px;
+  font-family: GillSansB;
+}
+.blog .blog-box-wrapper .blog-box .blog-date .blog-date-month {
+  font-size: 12px;
+  font-family: GillSansL;
+}
+.blog .blog-box-wrapper .blog-box .blog-image-box {
+  width: 380px;
+  height: 100%;
+}
+.blog .blog-box-wrapper .blog-box .blog-image-box .blog-image {
+  height: 140px;
+  background-image: url(/images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.blog .blog-box-wrapper .blog-box .blog-image-box .blog-title {
+  margin-top: 20px;
+  font-family: GillSansR;
+  font-size: 15px;
+}
+.blog .blog-box-wrapper .blog-box .blog-image-box .blog-desc {
+  margin-top: 11px;
+  font-family: GillSansR;
+  font-size: 13px;
+  color: #EE4367;
+}
+
+.blogpage {
+  min-height: 1000px;
+  width: 980px;
+  margin: 0 auto;
+}
+.blogpage .blogpage-hero {
+  height: 300px;
+  background-image: url(/images/blog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogpage .blogpage-hero .blogpage-hero-box {
+  height: 155px;
+  width: 155px;
+  background-color: #EE4367;
 }
 
 /*# sourceMappingURL=styles.css.map */
