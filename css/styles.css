@@ -1,0 +1,361 @@
+@font-face {
+  font-family: GillSansR;
+  src: url(../images/fonts/GillSans-01.ttf);
+}
+@font-face {
+  font-family: GillSansI;
+  src: url(../images/fonts/GillSans-Italic-03.ttf);
+}
+@font-face {
+  font-family: GillSansSBI;
+  src: url(../images/fonts/GillSans-SemiBoldItalic-06.ttf);
+}
+@font-face {
+  font-family: GillSansB;
+  src: url(../images/fonts/GillSans-Bold-02.ttf);
+}
+@font-face {
+  font-family: GillSansL;
+  src: url(../images/fonts/GillSans-Light-08.ttf);
+}
+@font-face {
+  font-family: GillSansLI;
+  src: url(../images/fonts/GillSans-LightItalic-09.ttf);
+}
+@font-face {
+  font-family: PTR;
+  src: url(../images/fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: PTI;
+  src: url(../images/fonts/PTSerif-Italic.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+#app {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+nav {
+  height: 92px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logowhite, nav .logoblack {
+  width: 92px;
+  height: 42px;
+}
+nav .logoblack {
+  background-image: url(../images/logo/logo-black.png);
+}
+nav .logowhite {
+  background-image: url(../images/logo/logo-white.png);
+}
+nav .whitetext {
+  color: white;
+}
+nav .blacktext {
+  color: black;
+}
+nav .links a, nav .linkshome a {
+  text-decoration: none;
+  margin: 0 6.75px;
+  font-family: GillSansR;
+  font-size: 17px;
+}
+nav .links .abouta, nav .linkshome .abouta {
+  color: black;
+}
+nav span {
+  color: #EE4367;
+  font-size: 21.5px;
+  font-family: GillSansR;
+}
+
+.navblack {
+  border-bottom: 2px solid black;
+}
+
+.navwhite {
+  border-bottom: 2px solid white;
+}
+
+footer {
+  height: 455px;
+  background-color: #EE4367;
+  width: 1280px;
+  margin: 0 auto;
+  color: white;
+}
+footer .footer-box {
+  margin: 0 auto;
+  padding-top: 36px;
+}
+footer .footer-box .footer-logo {
+  width: 92px;
+  height: 42px;
+  margin: 0 auto;
+}
+footer .footer-box .footer-contact {
+  margin-top: 46px;
+  text-align: center;
+}
+footer .footer-box .footer-subscribe {
+  display: flex;
+}
+footer .footer-box .footer-subscribe .footer-subscribe-submit .subscribe a {
+  width: 167px;
+  height: 60px;
+  background-color: white;
+}
+
+.home .homeheader {
+  height: 500px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -92px;
+  text-align: center;
+  color: white;
+}
+.home .homeheader .title {
+  padding-top: 156px;
+  font-family: PTR;
+  font-size: 40px;
+}
+.home .homeheader .subtitle {
+  margin-top: 9px;
+  font-family: PTI;
+  font-size: 20px;
+  color: #EE4367;
+}
+.home .homeheader .titleinfo {
+  padding-top: 49px;
+  font-family: PTI;
+  font-size: 20px;
+}
+.home .homeheader .readmore {
+  margin: 49px auto 0 auto;
+  background-color: #EE4367;
+  width: 121px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: GillSansR;
+  font-size: 15px;
+}
+.home .ceoquote {
+  height: 300px;
+  background-color: white;
+}
+.home .ceoquote .quote {
+  height: 147px;
+  width: 789px;
+  margin: 0 auto;
+  padding-top: 77px;
+}
+.home .ceoquote .quote .quote-text {
+  font-family: GillSansSBI;
+  color: #FFD140;
+  font-size: 15px;
+}
+.home .ceoquote .quote .author {
+  margin-top: 20px;
+  color: #EE4367;
+  font-family: PTR;
+  font-size: 15px;
+}
+.home .ceoquote .quote .title {
+  margin-top: 5px;
+  color: #A8A8A8;
+  font-family: PTR;
+  font-size: 10px;
+}
+.home .upcomingevents {
+  height: 320px;
+  background-color: #540D6E;
+  color: white;
+}
+.home .upcomingevents .upcomingeventsbox {
+  width: 1198px;
+  height: 199px;
+  margin: 0 auto;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-title {
+  padding-top: 50px;
+  font-size: 25px;
+  font-family: GillSansR;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-titlebar {
+  width: 177px;
+  height: 2px;
+  background-color: white;
+  margin-top: 10px;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box {
+  display: flex;
+  justify-content: space-between;
+  width: 1198px;
+  height: 124px;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event .home-event-date {
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event .home-event-date .home-event-date-day {
+  font-size: 22px;
+  font-family: GillSansB;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event .home-event-date .home-event-date-month {
+  font-size: 12px;
+  font-family: GillSansL;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event .home-event-text {
+  width: 140px;
+  font-family: GillSansR;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event .home-event-text .home-event-text-title {
+  font-size: 15px;
+}
+.home .upcomingevents .upcomingeventsbox .home-event-box .home-event .home-event-text .home-event-text-desc {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #EE4367;
+}
+
+.about {
+  width: 980px;
+  margin: 0 auto 95px auto;
+}
+.about .about-hero {
+  margin-top: 85.5px;
+  height: 380px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(/images/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about .about-title {
+  margin-top: -25px;
+  font-family: GillSansR;
+  font-size: 25px;
+}
+.about .about-title-bar {
+  width: 229px;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+}
+.about .about-text {
+  margin-top: 36.5px;
+  font-family: GillSansLI;
+  font-size: 16px;
+}
+
+.gallery {
+  min-height: 1000px;
+  width: 980px;
+  margin: 0 auto;
+}
+.gallery .gallery-title {
+  margin-top: 65.5px;
+  font-family: GillSansR;
+  font-size: 25px;
+}
+.gallery .gallery-title-bar {
+  width: 229px;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+}
+.gallery .gallery-photos {
+  height: 100%;
+  width: 100%;
+  margin-top: 29.5px;
+}
+.gallery .gallery-photos .gallery-photo-row-one {
+  height: 187px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery .gallery-photos .gallery-photo-row-one .yellow-picture {
+  width: 489px;
+  height: 187px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(/images/gallery/1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .gallery-photos .gallery-photo-row-one .red-picture {
+  width: 187px;
+  height: 187px;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.8), rgba(238, 67, 103, 0.8)), url(/images/gallery/2.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .gallery-photos .gallery-photo-row-one .green-picture {
+  width: 265px;
+  height: 187px;
+  background-image: linear-gradient(rgba(8, 173, 105, 0.8), rgba(8, 173, 105, 0.8)), url(/images/gallery/3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .gallery-photos .gallery-photo-row-two {
+  margin-top: 20px;
+  height: 306px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.gallery .gallery-photos .gallery-photo-row-two .purple-picture {
+  width: 603px;
+  height: 306px;
+  background-image: linear-gradient(rgba(84, 13, 110, 0.8), rgba(84, 13, 110, 0.8)), url(/images/gallery/4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.gallery .gallery-photos .gallery-photo-row-two .teal-picture {
+  width: 355px;
+  height: 306px;
+  background-image: linear-gradient(rgba(59, 206, 171, 0.8), rgba(59, 206, 171, 0.8)), url(/images/gallery/5.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=styles.css.map */

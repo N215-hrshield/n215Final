@@ -1,0 +1,37 @@
+footer{
+    height: 455px;
+    background-color: $site-red;
+    width: $banner-footer-width;
+    margin: 0 auto;
+    color: white;
+    .footer-box{
+        margin: 0 auto;
+        padding-top: 36px;
+        .footer-logo{
+            width: 92px;
+            height: 42px;
+            margin: 0 auto;
+        }
+        .footer-contact{
+            margin-top: 46px;
+            text-align: center;
+        }
+        .footer-subscribe{
+            display: flex;
+            .footer-subscribe-input{
+                input{
+
+                }
+            }
+            .footer-subscribe-submit{
+                .subscribe a{
+                    width: 167px;
+                    height: 60px;
+                    background-color: white;
+                }
+            }
+        }
+    }
+
+
+}

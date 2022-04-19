@@ -1,0 +1,19 @@
+{
+  "name": "media",
+  "version": "1.0.0",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus\r maiores excepturi reprehenderit aliquid sit consequuntur ipsa eius\r deserunt praesentium omnis quo incidunt nam corrupti, accusamus\r obcaecati aut eum cupiditate ex neque. Error eius dolores ex rerum.\r Debitis temporibus, suscipit dicta adipisci ut officia. Dolore\r repudiandae dolorem tempore hic vel esse quaerat nisi tenetur\r molestiae veritatis voluptas, nihil ullam, illo, omnis ducimus soluta\r optio natus voluptatum ad temporibus aliquam. Porro blanditiis qui\r incidunt odit id, doloremque quibusdam architecto deserunt officia\r sint, consequatur laudantium! Impedit optio, ipsum distinctio quas\r quam debitis, ab quia in illum officia soluta mollitia quos architecto\r incidunt. Reprehenderit.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.49.9"
+  }
+}

@@ -1,0 +1,74 @@
+.gallery{
+    min-height: 1000px;
+    width: 980px;
+    margin: 0 auto;
+    .gallery-title{
+        margin-top: 65.5px;
+        font-family: GillSansR;
+        font-size: 25px;
+    }
+    .gallery-title-bar{
+        width: 229px;
+        height: 2px;
+        background-color: black;
+        margin-top: 10px;
+    }
+    .gallery-photos{
+        height: 100%;
+        width: 100%;
+        margin-top: 29.5px;
+        .gallery-photo-row-one{
+            height: 187px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .yellow-picture{
+                width: 489px;
+                height: 187px;
+                background-image: linear-gradient(rgba($site-yellow,0.8),rgba($site-yellow,0.8)),url(/images/gallery/1.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .red-picture{
+                width: 187px;
+                height: 187px;
+                background-image: linear-gradient(rgba($site-red,0.8),rgba($site-red,0.8)),url(/images/gallery/2.jpeg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .green-picture{
+                width: 265px;
+                height: 187px;
+                background-image: linear-gradient(rgba($site-green,0.8),rgba($site-green,0.8)),url(/images/gallery/3.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+        .gallery-photo-row-two{
+            margin-top: 20px;
+            height: 306px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            .purple-picture{
+                width: 603px;
+                height: 306px;
+                background-image: linear-gradient(rgba($site-purple,0.8),rgba($site-purple,0.8)),url(/images/gallery/4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .teal-picture{
+                width: 355px;
+                height: 306px;
+                background-image: linear-gradient(rgba($site-teal,0.8),rgba($site-teal,0.8)),url(/images/gallery/5.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+}

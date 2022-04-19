@@ -1,0 +1,48 @@
+@font-face {
+    font-family: GillSansR;
+    src: url(../images/fonts/GillSans-01.ttf);
+  }
+  @font-face {
+    font-family: GillSansI;
+    src: url(../images/fonts/GillSans-Italic-03.ttf);
+  }
+  @font-face {
+    font-family: GillSansSBI;
+    src: url(../images/fonts/GillSans-SemiBoldItalic-06.ttf);
+  }
+  @font-face {
+    font-family: GillSansB;
+    src: url(../images/fonts/GillSans-Bold-02.ttf);
+  }
+  @font-face {
+    font-family: GillSansL;
+    src: url(../images/fonts/GillSans-Light-08.ttf);
+  }
+  @font-face {
+    font-family: GillSansLI;
+    src: url(../images/fonts/GillSans-LightItalic-09.ttf);
+  }
+  @font-face {
+    font-family: PTR;
+    src: url(../images/fonts/PTSerif-Regular.ttf);
+  }
+  @font-face {
+    font-family: PTI;
+    src: url(../images/fonts/PTSerif-Italic.ttf);
+  }
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+#app {
+    margin: 0 auto;
+    width: $banner-footer-width;
+  }

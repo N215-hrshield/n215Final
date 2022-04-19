@@ -1,0 +1,28 @@
+.about{
+    width: 980px;
+    margin: 0 auto 95px auto;
+    .about-hero{
+        margin-top: 85.5px;
+        height: 380px;
+        background-image: linear-gradient(rgba($site-yellow,0.8),rgba($site-yellow,0.8)),url(/images/about.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-title{
+        margin-top: -25px;
+        font-family: GillSansR;
+        font-size: 25px;
+    }
+    .about-title-bar{
+        width: 229px;
+        height: 2px;
+        background-color: black;
+        margin-top: 10px;
+    }
+    .about-text{
+        margin-top: 36.5px;
+        font-family: GillSansLI;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,48 @@
+nav{
+    height: 92px;
+    width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+    .logowhite, .logoblack {
+        width: 92px;
+        height: 42px;
+    }
+    .logoblack{
+        background-image: url(../images/logo/logo-black.png);
+    }
+    .logowhite{
+        background-image: url(../images/logo/logo-white.png);
+    }
+    .whitetext{
+        color: white;
+    }
+    .blacktext{
+        color: black;
+    }
+    .links, .linkshome{
+        a {
+            text-decoration: none;
+            margin: 0 6.75px;
+            font-family: GillSansR;
+            font-size: 17px;
+        }
+        .abouta{
+            color: black;
+        }
+    }
+    span{
+        color: $site-red;
+        font-size: 21.5px;
+        font-family: GillSansR;
+    }
+}
+.navblack{
+    border-bottom:  2px solid black;
+}
+.navwhite{
+    border-bottom:  2px solid white;
+}
