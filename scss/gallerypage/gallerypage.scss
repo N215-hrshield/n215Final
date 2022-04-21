@@ -3,19 +3,19 @@
     width: 980px;
     margin: 0 auto 151px auto;
     .gallerypage-hero1{
-        @include galleryhero(url(../../images/gallery/1.png),$site-yellow);
+        @include galleryhero(url(../images/gallery/1.png),$site-yellow);
     }
     .gallerypage-hero2{
-        @include galleryhero(url(../../images/gallery/2.jpeg),$site-red);
+        @include galleryhero(url(../images/gallery/2.jpeg),$site-red);
     }
     .gallerypage-hero3{
-        @include galleryhero(url(../../images/gallery/3.jpg),$site-green);
+        @include galleryhero(url(../images/gallery/3.jpg),$site-green);
     }
     .gallerypage-hero4{
-        @include galleryhero(url(../../images/gallery/4.jpg),$site-purple);
+        @include galleryhero(url(../images/gallery/4.jpg),$site-purple);
     }
     .gallerypage-hero5{
-        @include galleryhero(url(../../images/gallery/5.png),$site-teal);
+        @include galleryhero(url(../images/gallery/5.png),$site-teal);
     }
     .gallerypage-box-title1{
         @include gallerytextchange($site-yellow);
