@@ -46,3 +46,8 @@ nav{
 .navwhite{
     border-bottom:  2px solid white;
 }
+@media all and (max-width:1280px) and (min-width:800px) {
+    nav{
+        width: 76.5%;
+    }
+}

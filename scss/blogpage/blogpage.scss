@@ -1,8 +1,9 @@
 .blogpage{
-    min-height: 1000px;
+    min-height: 100px;
     width: 980px;
-    margin: 0 auto;
+    margin: 0 auto 151px auto;
     .blogpage-hero{
+        margin-top: 55.5px;
         height: 300px;
         background-image: url(/images/blog.jpg);
         background-position: center;
@@ -15,6 +16,34 @@
             height: 155px;
             width: 155px;
             background-color: $site-red;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            .blogpage-date-day{
+                font-size: 55px;
+                font-family: GillSansB;
+            }
+            .blogpage-date-month{
+                font-size: 31px;
+                font-family: GillSansL;   
+            }
         }
+    }
+    .blogpage-title{
+        margin-top: 56px;
+        color: $site-red;
+        font-family: GillSansR;
+    }
+    .blogpage-desc{
+        margin-top: 33px;
+        font-family: GillSansL;
+        font-size: 20px;
+    }
+}
+@media all and (max-width:1280px) and (min-width:800px) {
+    .blogpage{
+        width: 76.5%;
     }
 }

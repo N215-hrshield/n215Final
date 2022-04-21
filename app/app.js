@@ -1,6 +1,5 @@
 import * as MODEL from "../model/model.js";
 
-var homeContent = `<h1>HOME</h1>`
 
 
 function route(){
@@ -8,9 +7,9 @@ function route(){
     let pageName = hashTag.replace("#","")
     console.log(pageName)
     let pageContent = pageName + "Content";
-    //if (pageName == ""){
-    //    pageContent = "aboutContent";
-    //}
+    if (pageName == ""){
+        pageContent = "homeContent";
+    }
     MODEL.modelPageName(pageContent);
 }
 

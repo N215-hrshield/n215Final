@@ -1,6 +1,7 @@
 .home{
     .homeheader{
         height: 500px;
+        max-width: 1280px;
         background-image: linear-gradient(rgba($site-yellow,0.8),rgba($site-yellow,0.8)),url(../images/home-hero.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -33,7 +34,9 @@
             justify-content: center;
             align-items: center;
             font-family: GillSansR;
-            font-size: 15px;
+            font-size: 15px;   
+            text-decoration: none;
+            color: white;
         }
 
 
@@ -66,12 +69,13 @@
         }
     }
     .upcomingevents{
-        height: 320px;
+        min-height: 320px;
         background-color: $site-purple;
         color: white;
+        padding-bottom: 72px;
         .upcomingeventsbox{
             width: 1198px;
-            height: 199px;
+            min-height: 199px;
             margin: 0 auto;
             .home-event-title{
                 padding-top: 50px;
@@ -87,13 +91,16 @@
             .home-event-box{
                 display: flex;
                 justify-content: space-between;
+                flex-wrap: wrap;
                 width: 1198px;
-                height: 124px;
+                min-height: 124px;
                 .home-event{
-                    width: 220px;
+                     width: 220px;
                      display: flex;
                      justify-content: space-between;
                      margin-top: 50px;
+                     text-decoration: none;
+                     color: white;
                      .home-event-date{
                          width: 60px;
                          height: 60px;
@@ -124,6 +131,28 @@
                          }
                      }
                  }
+            }
+        }
+    }
+}
+@media all and (max-width:1280px) and (min-width:800px) {
+    .home{
+        .homeheader{
+            width: 100%;
+        }
+        .ceoquote{
+            .quote{
+                width: 76.5%;
+            }
+        }
+        .upcomingevents{
+            .upcomingeventsbox{
+                width: 76.5%;
+                .home-event-box{
+                    margin: 0 auto;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
             }
         }
     }

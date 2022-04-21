@@ -1,7 +1,7 @@
 .blog{
-    min-height: 1000px;
+    min-height: 100px;
     width: 980px;
-    margin: 0 auto;
+    margin: 0 auto 86px auto;
     .blog-title{
         margin-top: 63.5px;
         font-family: GillSansR;
@@ -23,6 +23,8 @@
             height: 257px;
             display: flex;
             justify-content: space-between;
+            text-decoration: none;
+            color: black;
             .blog-date{
                 width: 60px;
                 height: 60px;
@@ -64,5 +66,10 @@
                 }
             }
         }
+    }
+}
+@media all and (max-width:1280px) and (min-width:800px) {
+    .blog{
+        width: 76.5%;
     }
 }

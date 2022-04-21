@@ -1,0 +1,18 @@
+@mixin galleryhero($bgimage: url(/images/gallery/1.png),$gradiant-color: $site-yellow){
+    margin-top: 50px;
+    width: 980px;
+    height: 400px;
+    background-image: linear-gradient(rgba($gradiant-color,0.8),rgba($gradiant-color,0.8)),$bgimage;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@mixin gallerytextchange($color: $site-yellow){
+    margin-top: -275px;
+    font-size: 300px;
+    font-family: GillSansR;
+    color: $color;
+    span{
+        font-size: 140px;
+    }
+}
