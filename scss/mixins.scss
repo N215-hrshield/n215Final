@@ -7,12 +7,12 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-@mixin gallerytextchange($color: $site-yellow){
+@mixin gallerytextchange($color: $site-yellow, $spansize: 140px){
     margin-top: -275px;
     font-size: 300px;
     font-family: GillSansR;
     color: $color;
     span{
-        font-size: 140px;
+        font-size: $spansize;
     }
 }

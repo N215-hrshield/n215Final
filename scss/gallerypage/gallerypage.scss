@@ -27,7 +27,7 @@
         @include gallerytextchange($site-green);
     }
     .gallerypage-box-title4{
-        @include gallerytextchange($site-purple);
+        @include gallerytextchange($site-purple, 115px);
     }
     .gallerypage-box-title5{
         @include gallerytextchange($site-teal);
