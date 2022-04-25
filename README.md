@@ -2,4 +2,4 @@
 
 ## https://in-info-web4.informatics.iupui.edu/~hrshield/N215Final/
 
-This project is intended to add in jquery and javascript to make the webpages dynamic. The goal of this is to set up four pages that are all linked to each other and have their middle content be dynamiclly switched out by which one the user clicks on in the nav bar.
+This repo takes the mockup of the eventsy page at https://xd.adobe.com/view/bd8644ee-7aab-46ee-b82f-3fc90d364b4f-e8d5/ using jquery and MVC systems. It also uses scss to compile the css. The page itself uses multiple media queries down to 800 px width on the page and 
